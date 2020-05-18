@@ -1,0 +1,25 @@
+.about__image {
+  background-image: url('../../../images/author.jpg');
+  height: 464px;
+  width: 464px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 58px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__image {
+    height: 232px;
+    width: 232px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .about__image {
+    margin-right: 0;
+    height: 272px;
+    width: 272px;
+  }
+}
